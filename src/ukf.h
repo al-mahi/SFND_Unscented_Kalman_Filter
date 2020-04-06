@@ -22,6 +22,8 @@ class UKF {
    */
   void ProcessMeasurement(MeasurementPackage meas_package);
 
+  void  PredictAugmentedSigmaPoints(const Eigen::MatrixXd &Xsig_aug, const double delta_t);
+
   /**
    * Prediction Predicts sigma points, the state, and the state covariance
    * matrix
