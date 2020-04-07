@@ -149,6 +149,7 @@ public:
 		viewer->addText(" Y: "+std::to_string(rmse[1]), 30, 250, 20, 1, 1, 1, "rmse_y");
 		viewer->addText("Vx: "	+std::to_string(rmse[2]), 30, 225, 20, 1, 1, 1, "rmse_vx");
 		viewer->addText("Vy: "	+std::to_string(rmse[3]), 30, 200, 20, 1, 1, 1, "rmse_vy");
+        std::cout << rmse[0] << "," << rmse[1] << "," << rmse[2] << "," << rmse[3] << "," << std::endl;
 
 		if(timestamp > 1.0e6)
 		{
