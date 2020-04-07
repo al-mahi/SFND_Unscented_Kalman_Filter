@@ -53,12 +53,22 @@ tuned parameters were used to improve the NIS consistency. Following figure show
 tuning P parameters.
 
 Lidar NIS before fine tuning P:
+
 <img src="logs/LASER_sig.png" width="700" height="400" />
+
+
 Lidar NIS after fine tuning P:
+
 <img src="logs/LASER.png" width="700" height="400" />
+
+
 Radar NIS before fine tuning P:
+
 <img src="logs/NIS_RADAR_I.png" width="700" height="400" />
+
+
 Radar NIS after fine tuning P:
+
 <img src="logs/RADAR.png" width="700" height="400" />
 
 ## Effect of using only Lidar, Radar and both
